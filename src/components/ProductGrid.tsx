@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import DataGrid from './dataGrid';
+import DataGrid from './DataGrid';
 import { Product } from '../modal/product';
 
 const ProductGrid = () => {

@@ -3,7 +3,7 @@ import ProductGrid from './components/ProductGrid';
 
 const App:React.FC = () => {
   return (
-    <div className="App">
+    <div className="container-fluid mt-2 mb-2">
       <ProductGrid />
     </div>
   );

@@ -18,15 +18,41 @@ const DataGrid: React.FC<Props> = (props) => {
         return (
             <th key={item.title}>{item.title}</th>
         );
-    })
+    });
+
+    let rows;
+    if(props.data == null){
+        rows = <tr>
+            <td colSpan={props.columns.length}>No Record found</td>
+        </tr>
+    }
+    else{
+        rows = props.data.map(record => {
+
+            let columns = props.columns.map(column => {
+                return (
+                    <td>{record[column.field as keyof Product]}</td>
+                );
+            });
+
+            return (
+                <tr>
+                    {columns}
+                </tr>
+            );
+        })
+    }
 
     return (
-        <table >
+        <table className="table table-striped table-bordered">
             <thead>
                 <tr>
                     {header}
                 </tr>
             </thead>
+            <tbody>
+                {rows}
+            </tbody>
         </table>
     );
 }
