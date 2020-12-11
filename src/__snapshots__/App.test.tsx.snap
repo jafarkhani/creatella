@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component tests snapshop App 1`] = `
+<div
+  className="container-fluid mt-2 mb-2"
+>
+  <div>
+    <table
+      className="table table-striped table-bordered"
+    >
+      <thead>
+        <tr
+          data-testid="headers"
+        >
+          <th>
+            <button
+              className="sortable-header"
+              onClick={[Function]}
+            >
+              ID
+            </button>
+          </th>
+          <th>
+            Face
+          </th>
+          <th>
+            <button
+              className="sortable-header"
+              onClick={[Function]}
+            >
+              Price
+            </button>
+          </th>
+          <th>
+            <button
+              className="sortable-header"
+              onClick={[Function]}
+            >
+              Size
+            </button>
+          </th>
+          <th>
+            Added Date
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td
+            align="center"
+            colSpan={5}
+          >
+            No Record founds
+          </td>
+        </tr>
+      </tbody>
+      <tfoot />
+    </table>
+  </div>
+</div>
+`;

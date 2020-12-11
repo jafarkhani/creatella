@@ -1,0 +1,17 @@
+.error-container {
+  background-color: white;
+  transition: visibility 2s, opacity 1s 1.5s ease;
+  visibility: visible;
+  width: 100%;
+  z-index: 2;
+  text-align: center;
+  
+  .error-icon{
+    color: red;
+  }
+  
+  h6{
+    margin-left: 10px;
+    margin-top: 2px;
+  }
+}

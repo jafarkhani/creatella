@@ -1,5 +1,5 @@
 
-import ProductGrid from './components/ProductGrid';
+import ProductGrid from './components/ProductGrid/ProductGrid';
 
 const App:React.FC = () => {
   return (
