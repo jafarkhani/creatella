@@ -106,6 +106,7 @@ const DataGrid: React.FC<Props> = (props) => {
 
         FechDate();
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [datastate.page, props.dataUrl, props.pageCount]);
 
 

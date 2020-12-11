@@ -2,7 +2,6 @@ import { cleanup, render, waitFor } from '@testing-library/react';
 import { shallow } from 'enzyme';
 import React from 'react';
 import DataGrid from './DataGrid';
-import { act } from "react-dom/test-utils";
 
 
 describe("datagrid component tests", ()=>{
