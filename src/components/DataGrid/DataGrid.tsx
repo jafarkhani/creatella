@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect, useReducer, Fragment, useState } from 'react';
+import React, { useEffect, useReducer, Fragment, useState } from 'react';
 import _ from 'underscore';
 import { Record, SortDirection } from '../../modals/types';
 import { Column, DataState, DataAction } from './types';
